@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SearchRecipe"
+    android:id="@+id/searchRecipe"
+    android:background="@color/orange">
+
+
+    <EditText
+        android:id="@+id/searchET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/recipe_template_bg"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10sp"
+        android:hint="Enter Recipe Name"
+        android:imeOptions="actionSearch"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchRecipeRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchET"
+        tools:listitem="@layout/search_recipe_template" />
+    <TextView
+        android:id="@+id/noRecipeFoundTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Results Found"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/searchRecipePB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar_bg"
+        android:visibility="invisible" />
+</RelativeLayout>
