@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    android:background="@drawable/recipe_template_bg">
+    <TextView
+        android:id="@+id/similarRecipeNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Veg Pizza with Cheese"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/audiowide"/>
+    <ImageView
+        android:id="@+id/similarRecipeImageIV"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_recipe"
+        android:scaleType="centerCrop"/>
+</LinearLayout>

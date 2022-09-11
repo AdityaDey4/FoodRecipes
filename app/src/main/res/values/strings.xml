@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Food Recipes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_instruction">Preheat the oven to 350F Convection. Grease a round 26 cm Spring pan (9 1/2 inch).\nWash, dry and peel the rhubarb. Cut it in little pieces, mix with 2 tablespoon of sugar and let sit for at least 1/2 hour. It will extract a lot of water that needs to be drained. Pat rhubarb dry for further use.\nIn a kitchen machine beat together butter, sugar and vanilla extract until the butter is fluffy and the sugar is dissolved. Put in the eggs, one at a time and mix well.\nIn a separate bowl sift together flour, ground almonds, salt and baking powder, add slowly to the egg mixture. Dont over mix.\nFill dough into the spring pan, top with dried rhubarb and bake for 25 min.\nIn the mean time prepare the meringue/ baiser topping. Beat egg whites until stiff peaks form. Slowly add the sugar until meringue is firm and shiny.\nSpread the meringue evenly over the rhubarb and decorate with almond slices. Return to the oven for another 15 min. Cover the cake with aluminum foil after 5 min. in case the meringue does turn too dark.\nCool completely before removing the cake from the pan.</string>
+    <string name="default_ingredients">1. 21 ounces (600 g) rhubarb, peeled and cubed.\n2. 2 Tablespoons sugar.\n3. 2/3 cup (130 g) sugar.\n4. 1 teaspoon (5 ml) vanilla extract.</string>
+</resources>
